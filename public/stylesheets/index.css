@@ -157,6 +157,10 @@ body {
   .navbar-collapse.show .nav-item:nth-child(2) { transition-delay: 0.1s; }
   .navbar-collapse.show .nav-item:nth-child(3) { transition-delay: 0.15s; }
   .navbar-collapse.show .nav-item:nth-child(4) { transition-delay: 0.2s; }
+
+   .navbar-nav .btn.download-btn {
+    margin-top: 10px;
+  }
 }
 
 
