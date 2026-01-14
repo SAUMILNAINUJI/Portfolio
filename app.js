@@ -11,7 +11,12 @@ app.get('/', (req, res) => res.render('index'));
 app.get('/about', (req, res) => res.render('about'));
 app.get('/projects', (req, res) => res.render('project'));
 app.get('/contact', (req, res) => res.render('contact'));
+app.post('/contact', (req, res) => {
+  // Handle form submission logic here
+  res.redirect('/contact');
 
+  
+});
 app.listen(5000, () => {
   console.log('Server running on http://localhost:5000');
 });
