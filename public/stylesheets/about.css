@@ -1,0 +1,94 @@
+
+
+:root {
+    --purple-main: #7c3aed;
+    --purple-dark: #5b21b6;
+    --purple-soft: rgba(124, 58, 237, 0.12);
+}
+
+/* Override Bootstrap primary */
+.text-primary {
+    color: var(--purple-main) !important;
+}
+
+.bg-primary {
+    background-color: var(--purple-main) !important;
+}
+
+.border-primary {
+    border-color: var(--purple-main) !important;
+}
+
+.btn-primary {
+    background-color: var(--purple-main) !important;
+    border-color: var(--purple-main) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--purple-dark) !important;
+    border-color: var(--purple-dark) !important;
+}
+
+/* Soft purple backgrounds */
+.bg-primary-soft {
+    background-color: var(--purple-soft);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===========================
+   GENERAL STYLES
+=========================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFEDF3;
+}
+
+.ls-wide {
+    letter-spacing: 2px;
+}
+
+.small-text {
+    font-size: 0.75rem;
+}
+
+/* Image */
+.about-main-img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imgP {
+    background-color: var(--purple-main);
+}
+
+/* Animations */
+.transition-up {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition-up:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.skill-card {
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.rounded-pill {
+    border-radius: 50px !important;
+}

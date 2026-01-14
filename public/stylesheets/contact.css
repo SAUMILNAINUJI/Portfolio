@@ -1,0 +1,133 @@
+/* GLOBAL THEME BASE */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFEDF3 !important; /* Main theme background */
+    color: #2d2d2d;
+}
+.main {
+    background-color: #FFEDF3 !important;
+}
+
+.mainLight {
+    background-color: #FFF6FA !important;
+}
+/* PURPLE BRAND COLORS */
+
+.text-primary {
+    color: #6f42c1 !important;
+}
+
+.bg-primary {
+    background-color: #6f42c1 !important;
+}
+
+.border-primary {
+    border-color: #6f42c1 !important;
+}
+
+/* Soft purple background (icons, highlights) */
+.bg-primary-soft {
+    background-color: rgba(111, 66, 193, 0.12) !important;
+}
+
+/* HEADERS & SECTIONS*/
+
+/* Header background fix */
+header {
+    background-color: #FFF6FA !important; /* lighter than body */
+    border-bottom: 1px solid rgba(111, 66, 193, 0.15);
+}
+
+/* Main sections */
+section {
+    background-color: transparent;
+}
+
+/* CARDS  */
+
+.card {
+    background-color: #FFF6FA; /* NOT pure white */
+    border-radius: 1.25rem;
+}
+
+/* Hover animation */
+.transition-up {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition-up:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1.25rem 2.5rem rgba(111, 66, 193, 0.15) !important;
+}
+
+/* ICON BOXES */
+
+.icon-box {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* BUTTONS*/
+
+.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+    background-color: #59339d;
+    border-color: #59339d;
+}
+
+.btn-outline-primary {
+    color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6f42c1;
+    color: #fff;
+}
+
+/* FORM INPUTS (THEME MATCHED)*/
+
+.custom-input {
+    background-color: #f7f1ff; /* subtle purple tint */
+    border: 1px solid #e2d8fb;
+    padding: 0.85rem 1.1rem;
+    border-radius: 12px;
+    transition: all 0.25s ease;
+}
+
+.custom-input::placeholder {
+    color: #9a8fc7;
+}
+
+.custom-input:focus {
+    background-color: #fff;
+    border-color: #6f42c1;
+    box-shadow: 0 0 0 0.25rem rgba(111, 66, 193, 0.18);
+    outline: none;
+}
+
+/* MAP CONTAINER */
+
+iframe {
+    filter: grayscale(10%) contrast(1.05);
+}
+
+/*FOOTER  */
+
+.container.pb-5 {
+    padding-bottom: 4rem !important;
+    background-color: #FFEDF3 !important;
+}
