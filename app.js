@@ -14,7 +14,6 @@ app.get('/contact', (req, res) => res.render('contact'));
 app.post('/contact', (req, res) => {
   // Handle form submission logic here
   res.redirect('/contact');
-
   
 });
 app.listen(5000, () => {
